@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+
+    <script src="//at.alicdn.com/t/font_737147_zq00v9tv48.js"></script>
+
+    <title>豆瓣电影收藏</title>
+</head>
+<body>
+<header>
+    <div class="active">
+        <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-bangdan"></use>
+        </svg>
+        <span>Top 250</span>
+    </div>
+    <div>
+        <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-beimei"></use>
+            <span>US</span>
+        </svg>
+    </div>
+    <div>
+        <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-search"></use>
+        </svg>
+        <span>Search</span>
+    </div>
+</header>
+<main>
+    <section class="top250" id="top250">
+        <div class="container">
+            <!--<div class="item">-->
+                <!--<a href="#">-->
+                    <!--<div class="cover">-->
+                        <!--<img src="http://img3.doubanio.com/view/photo/s_ratio_poster/public/p480747492.jpg" alt="">-->
+                    <!--</div>-->
+                    <!--<div class="detail">-->
+                        <!--<h2>霸王别姬</h2>-->
+                        <!--<div class="extra">-->
+                            <!--<span class="score">9.3分</span> / 1000收藏-->
+                        <!--</div>-->
+                        <!--<div class="extra">1994 / 剧情、爱情</div>-->
+                        <!--<div class="extra">导演：张艺谋</div>-->
+                        <!--<div class="extra">主演：张艺谋、张艺谋、张艺谋</div>-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</div>-->
+        </div>
+        <div class="loading">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-loading"></use>
+            </svg>
+        </div>
+    </section>
+    <section id="beimei">
+        <div class="beimeiContainer">
+
+        </div>
+        <div class="loading">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-loading"></use>
+            </svg>
+        </div>
+    </section>
+    <section id="search" class="search">
+        <form class="search-area">
+            <input type="search" placeholder="搜索电影" value><input class="button" type="submit" value="搜索">
+        </form>
+        <div class="searchContainer">
+
+        </div>
+
+        <div class="search-result">
+            <div class="loading">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-loading"></use>
+                </svg>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>
